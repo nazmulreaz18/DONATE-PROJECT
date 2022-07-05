@@ -1,0 +1,53 @@
+body{ 
+    font-family:'Poppins', sans-serif;;
+
+}
+.home img{
+    width: 100%;
+    background-size: cover;
+    opacity: 1.5;
+    
+}
+
+.sec1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 50px;
+}
+
+.donatebox{
+    text-decoration: none;
+    background-color: rgb(211, 93, 93);
+    font-weight: 750;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color:black;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.para{
+    font-family: monospace;
+    font-weight: lighter;
+}
+.sec2{
+    margin-top: 10%;
+}
