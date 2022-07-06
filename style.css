@@ -1,20 +1,22 @@
 body{ 
+    margin: 0;
+    margin-top: 0;
     font-family:'Poppins', sans-serif;;
 
 }
 .home img{
     width: 100%;
     background-size: cover;
-    opacity: 1.5;
+    opacity: 1;
     
 }
 
-.sec1{
+.landing{
     position: relative;
     text-align: center;
     color: white;
 }
-.center1 {
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,28 +28,214 @@ h1{
 
 .donatebox{
     text-decoration: none;
-    background-color: rgb(211, 93, 93);
+    background: linear-gradient(rgb(236, 125, 60), rgb(232, 58, 58)) ;
     font-weight: 750;
   color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 12px;
+  border-radius: 4px;
 }
-.container{
-    position: relative;
+.donatebox:hover {
+    color: rgb(27, 26, 25);
+}
+
+.second-sec{
     text-align: center;
-    color:black;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .para{
     font-family: monospace;
     font-weight: lighter;
 }
-.sec2{
+
+.second-sec{
     margin-top: 10%;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.click{
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 4px;
+    background-color: rgba(236, 216, 207, 0.808); 
+   border: 2px solid rgb(223, 157, 157);
+   color: rgb(207, 113, 113);
+}
+
+.no-click{
+    text-align: justify;
+    font-size: 25px;
+    margin: 10px;
+    padding: 40px;    
+    border-radius: 4px;
+    background-color: rgb(253, 247, 247); 
+}
+.second-sec input{
+    border: none;
+    border-bottom: 1.7px solid silver;
+    width: 15cm;
+    text-align: center;
+    font-size: 15px;
+    margin: 25px;
+}
+.para{
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.program{
+
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-text{
+    margin-top: 150px;
+    text-align: center;
+}
+.food{
+    height: 200px;
+    width: 15%;
+    margin: 20px;
+    padding: 60px;
+    text-align: justify;
+    border-radius: 4px;
+    background-color: rgb(205, 247, 226); 
+    font-size: smaller;
+    font-family: serif;
+}
+.shelter{
+    height: 200px;
+    width: 15%;
+    margin: 20px;
+    padding: 60px;
+    text-align: justify;
+    border-radius: 4px;
+    background-color: rgb(241, 217, 217);
+    font-size: smaller;
+    font-family: serif;
+}
+.education{
+    height: 200px;
+    width: 15%;
+    margin: 20px;
+    padding: 60px;
+    text-align: justify;
+    border-radius: 4px;
+    background-color: rgb(225, 233, 245);
+    font-size: smaller;
+    font-family: serif;
+}
+
+.help-matters{
+    display: inline-flex;
+    background-color: rgb(197, 207, 236);
+    margin: 30px;
+    margin-top: 50px;
+    padding: 30px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(141, 207, 228);
+    
+}
+.help-matters img{
+    width: 60%;
+    height: 100%;
+    margin-left: 150px;   
+}
+.help-text{
+    width: 50%;
+    margin-left: 70px;
+    text-align: justify;
+}
+.change{
+    display: inline-flex;
+    background-color: rgb(197, 207, 236);
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(141, 207, 228);
+    
+}
+.change img{
+    width: 50%;
+    height: 80%;
+    margin-left: 100px; 
+}
+.change-text{
+    width: 80%;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.update{
+    text-align: center;
+}
+.update p{
+    font-family: serif;
+}
+.getemail{
+    width: 150px;
+    border: none;
+    background-color: rgb(202, 198, 198);
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+
+    
+}
+.submission{
+    position: relative;
+    justify-content: center;
+    display: inline-flex;
+    margin: 0 auto;
+    width: 100%;
+   
+   
+}
+.submission input{
+    color: white;
+    margin-top: 80px;
+    
+}
+.subscription  {
+    margin: 20px;
+      
+}
+
+.push{
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+
+    
+}
+.update-back{
+    margin: 0 auto;
+    background-color: bisque;
+    width: 750px;
+    height: 200px;
+}
+footer{
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgb(135, 207, 248);
+    padding: 5px;
+}
+h1{
+    font-size: 30px;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: small;
 }
